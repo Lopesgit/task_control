@@ -1,6 +1,6 @@
-/* ATEN��O !!!
-Este � o arquivo CSS obrigat�rio para todas telas do sistema, somente adicione classes 
-quando for necess�rio para todas telas, caso contr�rio crie um arquivo CSS separado para a tela especifica.
+/* ATENï¿½ï¿½O !!!
+Este ï¿½ o arquivo CSS obrigatï¿½rio para todas telas do sistema, somente adicione classes 
+quando for necessï¿½rio para todas telas, caso contrï¿½rio crie um arquivo CSS separado para a tela especifica.
 
 JEAN MARCEL - DESIGNER
 
@@ -8,27 +8,6 @@ JEAN MARCEL - DESIGNER
 *, html, body{
 font-family:Arial, sans-serif;font-size:10px;font-size-adjust:10px;letter-spacing:-0.1px;list-style:none;}
 * {margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
-.dia {font-size:10px;color:#444444;font-weight:normal}
-.col_dia{background-image:url("../images/calendario/barra.gif"); background-repeat:repeat-x; color: #fff; font-size: 11px; font-weight: bold; text-align:center; letter-spacing: 1pt}
-.mes{background-image:url("../images/calendario/barra.gif"); background-repeat:repeat-x; color: #FFFF00;font-size:12px; height:20px;font-weight: bold;text-align:center;letter-spacing: 2pt}
-.td_fundo{text-align:right;background:url("../images/calendario/fundo_cinza.gif") repeat-y;color:#333333; height:30px; font-size:10px; vertical-align:top}
-.recorte_esq {background-image:url("../images/recorte_esq.gif"); background-position:left; background-repeat:no-repeat; padding-left: 8px}
-.recorte_dir {background-image:url("../images/recorte_dir.gif"); background-position: right; background-repeat:no-repeat; padding-right: 8px}
-.bg_verde, .bg_amarelo, .bg_vermelho ul{margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;list-style-type:none;}
-.bg_verde, .bg_amarelo, .bg_vermelho li a{text-align:right;list-style-type: none;margin:0px 0px 0px 0px;padding: 0px 0px 0px 0px;border-collapse:collapse;display: block;text-decoration:none;}
-.bg_verde{background:url("../images/calendario/vaga_verde.gif") repeat-x}
-.bg_amarelo{background:url("../images/calendario/vaga_amarelo.gif") repeat-x;}
-.bg_vermelho{background:url("../images/calendario/vaga_vermelho.gif") repeat-x}
-.hoje{ background-color: #8CC6FF; text-align: right}
-ul {width:100%;list-style:none;margin:0;padding:0}
-li {display:block;padding:0px;margin:0px;font-size:11px;color:#444444; font-weight:bold}
-li a:link, li a:visited  {display:block;padding:0px;margin:0px;font-size:11px; text-decoration:none;color:#444444; font-weight:bold}
-li a:hover {border:1px #0099FF solid}
-li a:active, .ativo_teste {background:url("../images/calendario/vaga_verde.gif") repeat-x}
-li a:active, .ativo_teste2 {background:url("../images/calendario/vaga_vermelho.gif") repeat-x}
-* html ul li { float: rigth; height: 1%; }
-* html ul li a { height: 1%; }
-.dia_agendado{background:url("../images/calendario/dia_agendado.gif") repeat-x; vertical-align:bottom; text-align:right}
 table, tr, td{font-size:11px;font-weight:bold}
 textarea, input, select{font-size:10px;color:#333;border:1px #006699 solid;font-weight:normal; z-index:1;}
 fieldset{border:1px solid #006699;padding-left:4px;padding-bottom:4px}
@@ -45,12 +24,9 @@ a{color:#000000;font-size:11px}
 a:hover{color:#ff0000}
 a:active{color:#ff0000}
 a, a:hover, a:active, a:visited{font-weight:bold;text-decoration:none}
-.botao{color:#000000;font-size:11px;font-weight:bold;background-image:url("../images/helpdesk/barra.gif");background-repeat:repeat-x;border:none;width:50px;height:18px;text-align:center; padding:0px;text-transform:none;cursor:pointer}
 .botao2{background:url("../images/bg_botao2.jpg") repeat-x left top;color:#fff;font-size:11px;width:50px;height:18px;text-align:center;padding:0px;cursor:pointer;border:1px outset #fff;background-color: #006699;font-weight:bold;text-transform:none}
 .botao3{background:url("../images/bg_botao.jpg") repeat-x left top;color:#fff;border:1px outset #fff;width:40px;background-color:#006699;height:16px;text-align:center;padding:0px;cursor:pointer;text-transform:none; font-weight:normal}
 .bt_excluir{background:url("../images/bg_excluir.jpg") repeat-x left top;color:#fff; font-weight: normal;border:1px outset #fff;background-color:#990000;width:40px;height:16px;text-align:center;padding:0px;cursor:pointer;text-transform:none}
-.bt_cad{background:url("../images/incluir.gif") no-repeat left;width:16px;border:none;cursor:pointer}
-.bt_exc{background:url("../images/excluir.gif") no-repeat left;width:16px;border:none;cursor:pointer}
 .botao2:focus, .botao:focus, .botao3:focus, .bt_excluir:focus, .bt_cad:focus, .bt_exc:focus { background:#006699}
 .barra_direita{background-image:url("../images/barra_direita.gif");background-position:left;color:#fff;height:23px;font-weight:bold;font-size:11px;width:40%} /* width:306px */
 .barra_esquerda{background-image:url("../images/barra_esquerda.gif");background-position:right;height:23px;font-weight:bold}
@@ -100,123 +76,29 @@ input.campo_transbranco{padding-left: 2px; padding-right: 2px; height:15px;backg
 .aba a {color:#fff}
 .aba a:hover, .aba a:active {color:#ff6}
 
-.bt_login{color:#fff;font-size:11px;font-weight:normal;border:1px outset #fff;background:#006699;width:75px;height:20px; text-align:center}
-.titulo_impressao{color:#000000;font-size:12px;font-weight:bold;letter-spacing:1pt}
-/*CSS ESPECIALIDADE ********************/
-.cel_CR{font-family:Helvetica;font-weight:normal;color:#000000}
-.calendario_coluna{;color:#fff;background:#006699;text-align:center;border:1px solid #fff;border-color:#fff}
-.calendario_dia{font-family:Helvetica;font-size:20px;font-weight:normal;color:#000000;text-align:center;border:#548ABC 1px solid}
-.calendario_vaga{font-family:Helvetica;font-size:14px;font-weight:normal;color:#000000;text-align:center;border:#548ABC 1px solid}
-.campo_nr{padding-right:4px;text-align:right}
-/*CSS ESPECIALIDADE ********************/
-
-#conteudo{border:1px #006699 solid;background:#d6d7d6;height:324px}
-.text_left{text-align:left;padding-left:3px}
-.text_right{text-align:right;padding-right:4px}
-.text_center{text-align:center; padding: 0px}
-
-/* PRONTUARIO ELETRONICO - PRONTUARIO.PHP
-********************************************************************/
-.janela_procedimento, .janela_cid, .janela_exame, .janela_medicamento{position:absolute;left:85px;top:315px;width:600px;height:400px;z-index:1;visibility:hidden}
-/* FIM DE PRONTUARIO ELETRONICO PRONTUARIO.PHP 
-********************************************************************/
-
-/* EXAME - MENSAGEM DE SALDO 
-********************************************************************/
-#msg_saldo {
-	position:absolute;
-	left:382px;
-	top:285px;
-	width:300;
-	height:70;
-	z-index:1;
-	visibility: hidden}
-.msg_alerta {position: absolute; left:60%; top:55%; margin-left:-250px; margin-top:-150px; height: 100px; visibility: hidden; width: 300px; border: 1px #006699 solid; background: #fff; z-index: 1000}
-.msg_titulo {background-image:url(../images/barra.gif); background-repeat: repeat-x; color:#fff; letter-spacing:1pt; font-size: 11px}
-
-/* FIM DE EXAME CADASTRO GRUPO DE EXAME.PHP 
-********************************************************************/
-.filtro {filter: alpha(opacity=90); opacity: .9} 
-.recorte_esq {background-image:url("../images/recorte_esq.gif");background-position:left; background-repeat:no-repeat;padding-left:8px}
-.recorte_dir {background-image:url("../images/recorte_dir.gif");background-position:right; background-repeat:no-repeat;padding-right:8px}
-.borda {border: 1px #006699 solid}
-.barra_guia {background-image: url("../images/barra_guia.gif"); background-repeat: no-repeat; background-position:left;color:#fff;font-weight:bold;padding-left:5px; height: 20px}
-.barra_guia a{color:#FFF}
-.barra_guia a:hover{color:#FFFF66}
-.barra_guia a:active{color:#ccc}
-.barra_guia a:vited{color:#FFF}
-input:focus, select:focus, textarea:focus {
-  background: #FFFFCC; border:1px #333 inset}
-.trans {background:transparent;border:none;text-transform:none;width:90%;font-size:11px;font-family:'Courier New', Courier, monospace;}
-.barra_sep {color:#FFFF99;height:20px; padding-top:4px;padding-left:3px;background:url("../images/barra_sep.gif") left top no-repeat}
-
-
-/* FARMACIA > DIVERGENCIA DE INVENTARIO
-********************************************************************/
-.contagem
-{
- width: 50px;
+.carregando {
+    display:none; 
+    position:absolute; 
+    left: 878px; 
+    top: 5px;
+}
+#calendario_corpo {
+    display:none;
+    width: 300px;
+    position:relative;
+    float: left;
 }
 
-
-.link
-{
-	color:#00F;
+#calendario_loading {
+    display:none;
+    width: 300px;
+    position:relative;
+    float: left;
 }
-
-#linkInicioL1
-{
-	border:none;
-	width:100%;
-	height:24px;
-	float:left;
-	cursor:pointer;
-	top:0;
-	margin-top:0;
+#calendario_formulaio {
+/*                display:none;*/
+    width: 90%;
+    position:relative;
+    float: left;
+    margin-left: 50px;
 }
-
-#linkInicioL2
-{
-	border:none;
-	margin-top:0;
-	width:100%;
-	height:34px;
-	float:left;
-	top:0px;
-	cursor:pointer;
-}
-
-
-#iframeMensagemAtualizarSessao
-{
-	position:absolute;
-	background:none;
-	z-index:9999;
-	font-size:12px;
-	font-weight:bold;
-	line-height:15px;
-	border:none;
-	height:170px;
-	top:100px;
-	_margin-left:-150px;
-}
-
-#response
-{
-	position:fixed;
-	display:none;
-	padding:4px;
-	width:auto;
-	height:auto;
-/*	background:#E4E4E4;*/
-/*	border:1px solid #666666;*/
-	text-align:center;
-	color:#000000;
-	float:right;
-	margin-left:20px;
-	margin-right:20px;
-	left:0;
-	right:0;
-        top:25%;
-}
-.ui-corner-all { -moz-border-radius: 4px; -webkit-border-radius: 4px; }
